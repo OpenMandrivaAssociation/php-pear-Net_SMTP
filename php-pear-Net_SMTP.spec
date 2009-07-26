@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - an implementation of the SMTP protocol
 Name:		php-pear-%{_pearname}
-Version:	1.3.2
+Version:	1.3.3
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
