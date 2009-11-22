@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.3.3
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	An implementation of the SMTP protocol
 License:	PHP License
 Group:		Development/PHP
@@ -56,6 +56,7 @@ fi
 
 %files
 %defattr(-,root,root)
-%doc %{upstream_name}-%{version}/docs/* %{upstream_name}-%{version}/examples
+%doc %{upstream_name}-%{version}/docs/*
+%doc %{upstream_name}-%{version}/examples
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
