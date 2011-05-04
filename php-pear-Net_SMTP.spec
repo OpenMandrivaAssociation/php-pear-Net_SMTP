@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.4.4
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	An implementation of the SMTP protocol
 License:	PHP License
 Group:		Development/PHP
