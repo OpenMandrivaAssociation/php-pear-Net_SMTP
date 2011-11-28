@@ -3,7 +3,7 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.6.0
+Version:	1.6.1
 Release:	%mkrel 1
 Summary:	An implementation of the SMTP protocol
 License:	PHP License
