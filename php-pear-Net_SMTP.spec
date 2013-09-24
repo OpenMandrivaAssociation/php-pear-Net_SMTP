@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.6.1
-Release:	5
+Version:	1.6.2
+Release:	1
 Summary:	An implementation of the SMTP protocol
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/%{upstream_name}
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/Net_SMTP-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -122,4 +122,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 * Thu Jul 26 2007 Adam Williamson <awilliamson@mandriva.org> 1.2.10-1mdv2008.0
 + Revision: 55646
 - Import php-pear-Net_SMTP
+
 

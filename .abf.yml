@@ -1,2 +1,4 @@
+removed_sources:
+  Net_SMTP-1.6.1.tgz: 3acd10587aea13fc49a5ff48d6d011430f19aee4
 sources:
-  "Net_SMTP-1.6.1.tgz": 3acd10587aea13fc49a5ff48d6d011430f19aee4
+  Net_SMTP-1.6.2.tgz: f2bc027fa581205b6043b8e7916dd7b65ae660ed
