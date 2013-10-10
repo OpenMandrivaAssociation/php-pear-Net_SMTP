@@ -4,8 +4,8 @@
 
 Summary:	An implementation of the SMTP protocol
 Name:		php-pear-%{modname}
-Version:	1.6.1
-Release:	5
+Version:	1.6.2
+Release:	1
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/%{modname}
